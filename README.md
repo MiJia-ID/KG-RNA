@@ -42,6 +42,16 @@ We also choose the prot_t5_xl_uniref50 pre-trained model of ProtTrans, which use
 python3 ./code/feature/create_edge.py 
 ```
 
+**Fourth**, the training dataset used in this study is provided in the compressed file `data.zip`, which contains all necessary data for model training and evaluation.
+
+The processed protein–RNA knowledge graph data is provided in the compressed file `protein_rna_with_fasta_clean.zip`. This dataset includes curated protein–RNA interaction information along with corresponding FASTA sequences, which are used to construct the knowledge graph and support evidence-based prediction.
+
+Please unzip both files before running the code:
+
+```bash
+unzip data.zip
+unzip protein_rna_with_fasta_clean.zip
+
 ### Model Training
 Run the following script to train the model.
 ```python
