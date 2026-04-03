@@ -51,6 +51,7 @@ Please unzip both files before running the code:
 ```bash
 unzip data.zip
 unzip protein_rna_with_fasta_clean.zip
+```
 
 ### Model Training
 Run the following script to train the model.
